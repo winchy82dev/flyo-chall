@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="container">
+    <header>
+        <section class="logo">
+            <img src="/images/logo.svg" alt="Fylo logo">
+        </section>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">features</a></li>
+                <li><a href="#">team</a></li>
+                <li><a href="#">sign in</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="row">
+            <div class="hero-content">
+                <img src="/images/illustration-intro.png" alt="folder">
+                <h2>All your files in one secure location,<br>accessible anywhere.</h2>
+                <p>Fylo stores all your most important files in one secure location.</p>
+                <p>Access them wherever you need, share and collaborate with friends, family, and co-wworkers.</p>
+                <a href="#" class="btn">get started</a>
+            </div>
+        </div>
+    </section>
+    <section class="features clear">
+   
+            <img src="/images/icon-access-anywhere.svg" alt="desktop, mobile">
+            <h3>Access your files, anywhere</h3>
+            <p>The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
+     
+        
+            <img src="/images/icon-security.svg" alt="Shield icon">
+            <h3>Security you can trust</h3>
+            <p>2-factor authentification and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
+      
+            <img src="/images/icon-collaboration.svg" alt="clock, team">
+            <h3>Real-time collaboration</h3>
+            <p>Security share files and folders with friends, family and colleagues for live collaboration. No email attachements required.</p>
+       
+            <img src="/images/icon-any-file.svg" alt="folder, files">
+            <h3>Store any type of file</h3>
+            <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
+        
+    </section>
+    <section class="productive clear">
+        
+            <img src="/images/illustration-stay-productive.png" alt="collaboration">
+     
+            <h2 class="prod">Stay productive,<br>wherever you are</h2>
+            <p>Never let location be an issue when accessing your file. Fylo has you covered for all of your file storage needs.</p>
+            <p>securely share files and folders with friends, family and colleagues for live collaboration. No email attachements required.</p>
+            <a href="#">See how Fylo works
+                <i></i>
+            </a>
+       
+    </section>
+    <section class="testimonial">
+       <div>
+            <p>Fylo has improved our team productivity by an order of magniture.
+                Since making the switch our team has become a well-oiled collaboration machine.
+            </p>
+         
+                <img src="/images/profile-1.jpg" alt="satish patel">
+                <h4 class="name">satish patel</h4>
+                <span>founder & CEO, huddle</span>
+          
+            </div>
+            <div>
+     
+            <p>Fylo has improved our team productivity by an order of magniture.
+                Since making the switch our team has become a well-oiled collaboration machine.</p>
+           
+                <img src="/images/profile-2.jpg" alt="bruce mcKenzie">
+                <h4 class="name">bruce mcKenzie</h4>
+                <span>founder & CEO, huddle</span>
+            </div>
+            <div>
+            <p>Fylo has improved our team productivity by an order of magniture.
+                Since making the switch our team has become a well-oiled collaboration machine.</p>
+            
+                <img src="/images/profile-3.jpg" alt="iva boyd">
+                <h4 class="name">iva boyd</h4>
+                <span>founder & CEO, huddle</span>
+          
+    </section>
+    <section class="newsletter">
+        <section class="form">
+            <h2>Get early access today</h2>
+            <p>it only takes a minute to sign up and our free starter tier is extremely generous.
+                If you have any questions, our support team would be happy to help you.
+            </p>
+            <form action="">
+                <input type="email" name="" id="" placeholder="johnappleseed@mail.com">
+                <input type="submit" value="get started for free">
+                <span class="message"></span>
+            </form>
+        </section>
+    </section>
+    <footer>
+        <section class="col-1">
+            <img src="/images/logo.svg" alt="Fylo logo">
+        </section>
+        <section class="col-1-2 clear">
+            <section class="col-1-2 adress">
+                <i></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, 
+                    tetur at odio pariatur qui repellendus hic amet animi
+                    error architecto. Enim architecto amet ipsa eligendi</p>
+            </section>
+            <section class="col-1-2 adress">
+                <span class="phone"><a href="tel:15431234567">+1-543-123-4567</a></span>
+                <span class="email"><a href="mailto:example@fylo.com">example@fylo.com</a></span>
+            </section>
+        </section>
+        <section class="col-1-2 clear">
+            <section class="col-1-3 links">
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">jobs</a></li>
+                    <li><a href="#">press</a></li>
+                    <li><a href="#">blog</a></li>
+                </ul>
+            </section>
+            <section class="col-1-3 links">
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">terms</a></li>
+                    <li><a href="#">privacy</a></li>
+                </ul>
+            </section>
+            <section class="col-1-3 social">
+                <ul>
+                    <li><a href="#">
+                        <i></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i></i>
+                    </a></li>
+                </ul>
+            </section>
+        </section>
+    </footer>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
